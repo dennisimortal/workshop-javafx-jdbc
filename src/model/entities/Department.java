@@ -1,4 +1,4 @@
-package motel.entities;
+package model.entities;
 
 import java.io.Serializable;
 
