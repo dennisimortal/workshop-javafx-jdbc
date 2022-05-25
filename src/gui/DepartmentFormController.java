@@ -77,7 +77,7 @@ public class DepartmentFormController implements Initializable{
 			setErrorMessages(e.getErrors());
 		}
 		catch (DbException e) {
-			Alerts.showAlets("Error saving object", null,e.getMessage(), AlertType.ERROR);
+			Alerts.showAlert("Error saving object", null,e.getMessage(), AlertType.ERROR);
 		}
 	}
 	
